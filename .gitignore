@@ -1,0 +1,34 @@
+# --- Environment secrets ---
+.env
+backend/.env
+ai-service/.env
+frontend/.env
+
+# --- Node ---
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+npm-debug.log*
+package-lock.json.bak
+
+# --- Python ---
+venv/
+ai-service/venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Uploaded files & generated data (don't commit user data) ---
+backend/uploads/
+ai-service/storage/chroma/
+*.log
+
+# --- Build output ---
+frontend/dist/
+frontend/build/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
