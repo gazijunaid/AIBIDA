@@ -96,17 +96,4 @@ This is a working reference implementation, not a hardened production build. Bef
 - Add a proper job queue (BullMQ) instead of fire-and-forget async processing for document uploads
 - Rate-limit and add request signing between `backend` and `ai-service`
 
-## Deliverables checklist (per assignment)
 
-- [x] Frontend source code
-- [x] Backend source code
-- [x] AI processing service
-- [x] OCR integration module
-- [x] Vector database implementation
-- [ ] GitHub repository — push this folder to a new repo
-- [x] Technical documentation (this README + inline comments)
-- [ ] API documentation — consider adding Swagger/OpenAPI via `swagger-jsdoc`
-- [x] Database schema (see `backend/models/`)
-- [ ] Deployment URL — deploy frontend to Vercel, backend to Render/Railway, ai-service alongside
-- [ ] Project demonstration video
-- [ ] Final presentation (PPT)
